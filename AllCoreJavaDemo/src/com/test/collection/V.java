@@ -1,5 +1,5 @@
-package com.test.collection;
+package com.test;
 
-public class V {
+public enum V {
 
 }
