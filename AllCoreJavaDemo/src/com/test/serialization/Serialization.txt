@@ -1,0 +1,7 @@
+1.What does Serialization means?
+Ans: Writting the object into binary is called serialization.
+
+2.How can we make class object serialized?
+Ans: By implementing serializable marker interface.
+
+3.How can we deserialize the object.
