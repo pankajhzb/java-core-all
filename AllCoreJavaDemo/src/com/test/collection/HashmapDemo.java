@@ -58,7 +58,7 @@ public class HashmapDemo {
 		Set<String> hmkey = hm.keySet();
 		Iterator<String> it = hmkey.iterator();
 		while(it.hasNext()){
-			Map.Entry<K, V> element = (Entry<K, V>)it.next();
+			//Map.Entry<K, V> element = (Entry<K, V>)it.next();
 			System.out.println(hm.get(it.next()));
 		}
 		
