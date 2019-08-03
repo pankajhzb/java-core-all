@@ -1,10 +1,7 @@
-package com.test.collection;
+package com.test.designPattern;
 
-public class TreeMap {
+public class TestFacadePattern {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

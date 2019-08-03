@@ -1,4 +1,4 @@
-package com.test;
+package com.test.collection;
 
 import java.util.Enumeration;
 import java.util.Hashtable;

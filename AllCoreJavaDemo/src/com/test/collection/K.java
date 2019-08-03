@@ -1,4 +1,4 @@
-package com.test;
+package com.test.collection;
 
 public class K {
 private int i = 10;
