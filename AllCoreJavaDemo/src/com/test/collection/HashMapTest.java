@@ -7,6 +7,11 @@ import java.util.Set;
 import java.util.Map.Entry;
 
 public class HashMapTest {
+
+	public static void main(String[] agrs) {
+		updateHashMapValueOnSameKey();
+	}
+
 	public void getHashmap() {
 		HashMap<String, Double> hm = new HashMap<String, Double>();
 		// put element to the map
@@ -24,6 +29,19 @@ public class HashMapTest {
 		Double balance = (Double) hm.get("John Doe").doubleValue();
 		hm.put("John Doe", new Double(balance + 1000));
 		System.out.println("John Doe's new balance is:" + hm.get("John Doe"));
+
+	}
+
+	public static void updateHashMapValueOnSameKey() {
+		HashMap hm = new HashMap();
+		hm.put("apple", 3);
+		hm.put("banana", 4);
+		hm.put("orange", 5);
+
+		int applevalue = (int) hm.get("apple");
+		hm.put("apple", applevalue + 4);
+
+		System.out.println(hm);
 
 	}
 
