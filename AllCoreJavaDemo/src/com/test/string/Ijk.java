@@ -1,6 +1,6 @@
 package com.test.string;
 
-import com.test.abstracts.I1;
+import com.pk.abstracts.I1;
 
 public class Ijk implements I1{
 
