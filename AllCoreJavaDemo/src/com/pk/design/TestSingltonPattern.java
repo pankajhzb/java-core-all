@@ -1,4 +1,4 @@
-package com.pk.designPattern;
+package com.pk.design;
 
 public class TestSingltonPattern {
 
