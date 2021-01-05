@@ -46,10 +46,8 @@ public class AlgoApp {
 	 * know the length of LinkedList.
 	 * 
 	 * Read more:
-	 * https://javarevisited.blogspot.com/2012/12/how-to-find-middle-element-of-
-	 * linked-list-one-pass.html#ixzz6V9BnrGEe
-	 */
+	 * https://javarevisited.blogspot.com/2012/12/how-to-find-middle-element-of-linked-list-one-pass.html#ixzz6V9BnrGEe
 	
-	
+	*/
 
 }
