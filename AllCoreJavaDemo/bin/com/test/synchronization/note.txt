@@ -1,5 +1,0 @@
-1.Immutable object means
-2.How can we implement or make immutable object
-3.Difference in Synchronized method and Synchronized block
-4.When to use method or block
-5.

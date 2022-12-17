@@ -1,11 +1,10 @@
 package com.pk.collection;
 
-import java.util.Enumeration;
 import java.util.Hashtable;
 
 public class HashTableTest {
-	Hashtable<String,Integer> ht=new Hashtable<String,Integer>(); 
-	
+    Hashtable<String, Integer> ht = new Hashtable<String, Integer>();
+
 //ht.put("a","1");
 //	ht.put("b","2");
 //	ht.put("c","3");

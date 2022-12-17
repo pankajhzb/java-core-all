@@ -1,2 +1,4 @@
-package com.pk.design.behavioral;public class StatePattern {
+package com.pk.design.behavioral;
+
+public class StatePattern {
 }

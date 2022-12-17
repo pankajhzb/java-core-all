@@ -1,2 +1,4 @@
-package com.pk.design.structural;public class ProxyPattern {
+package com.pk.design.structural;
+
+public class ProxyPattern {
 }

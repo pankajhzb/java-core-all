@@ -6,50 +6,54 @@ package com.test.oops;
 		The method overriding is an example of runtime polymorphism. You can have a method in subclass overrides the method in its super classes with the same name and signature. Java virtual machine determines the proper method to call at the runtime, not at the compile time.
 		Let's take a look at the following example:*/
 
-		class Animal {
-		  void whoAmI() {
-		    System.out.println("I am a generic Animal.");
-		  }
-		}
-		class Dog extends Animal {
-		  void whoAmI() {
-		    System.out.println("I am a Dog.");
-		  }
-		}
-		class Cow extends Animal {
-		  void whoAmI() {
-		    System.out.println("I am a Cow.");
-		  }
-		}
-		class Calf extends Cow {
-			void whoAmI() {
-			    System.out.println("I am a Calf.");
-			  }
-		}
-		class Snake extends Animal {
-		  void whoAmI() {
-		    System.out.println("I am a Snake.");
-		  }
-		}
+class Animal {
+    void whoAmI() {
+        System.out.println("I am a generic Animal.");
+    }
+}
 
-		class RuntimePolymorphismDemo {
-		  public static void main(String[] args) {
-		    Animal ref1 = new Animal();
-		    Animal ref2 = new Dog();
-		    Animal ref3 = new Cow();
-		    //test the benefit of taking Animal ref to point dog class
-		    //here ref3 pointing to cow class, but ref3 of animal can point to dog also.
-		    //ref3 = new Dog();
-		    //eve can point to sub class of dog also.
-		    //ref3 = new Calf();
-		    
-		    Animal ref4 = new Snake();
-		    ref1.whoAmI();
-		    ref2.whoAmI();
-		    ref3.whoAmI();
-		    ref4.whoAmI();
-		  }
-		}
+class Dog extends Animal {
+    void whoAmI() {
+        System.out.println("I am a Dog.");
+    }
+}
+
+class Cow extends Animal {
+    void whoAmI() {
+        System.out.println("I am a Cow.");
+    }
+}
+
+class Calf extends Cow {
+    void whoAmI() {
+        System.out.println("I am a Calf.");
+    }
+}
+
+class Snake extends Animal {
+    void whoAmI() {
+        System.out.println("I am a Snake.");
+    }
+}
+
+class RuntimePolymorphismDemo {
+    public static void main(String[] args) {
+        Animal ref1 = new Animal();
+        Animal ref2 = new Dog();
+        Animal ref3 = new Cow();
+        //test the benefit of taking Animal ref to point dog class
+        //here ref3 pointing to cow class, but ref3 of animal can point to dog also.
+        //ref3 = new Dog();
+        //eve can point to sub class of dog also.
+        //ref3 = new Calf();
+
+        Animal ref4 = new Snake();
+        ref1.whoAmI();
+        ref2.whoAmI();
+        ref3.whoAmI();
+        ref4.whoAmI();
+    }
+}
 		
 		/*
 		 * 

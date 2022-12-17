@@ -1,2 +1,4 @@
-package com.pk.design.behavioral;public class MediatorPattern {
+package com.pk.design.behavioral;
+
+public class MediatorPattern {
 }

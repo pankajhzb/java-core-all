@@ -1,13 +1,13 @@
 package com.pk.design.creational;
 
-public class TestFactoryPattern {
+public class FactoryPattern {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
 
-	}
+    }
 
 }
