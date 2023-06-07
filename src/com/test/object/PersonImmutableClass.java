@@ -11,9 +11,9 @@ package com.test.object;
 
 /**
  * Strategy To Create Immutable Class In Java .
- * 1. Make all fields final and private. 
- * 2. Do not provide setter method that can modify the fields� value. 
- * 3. Do not allow subclasses to override methods i.e. create final class. 
+ * 1. Make all fields final and private.
+ * 2. Do not provide setter method that can modify the fields� value.
+ * 3. Do not allow subclasses to override methods i.e. create final class.
  * 4. If instance field has references to mutable objects then do not allow changing those objects.
  */
 final public class PersonImmutableClass {

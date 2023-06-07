@@ -3,6 +3,7 @@ package com.pk.collection;
 public class ConcreteBean {
     private String name;
     private int age;
+
     ConcreteBean(String name, int age) {
         this.name = name;
         this.age = age;

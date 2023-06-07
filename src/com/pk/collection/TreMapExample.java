@@ -5,7 +5,9 @@ package com.pk.collection;
 // searching, and traversal
 
 // Importing required classes
-import java.util.*;
+
+import java.util.Map;
+import java.util.TreeMap;
 
 // Main class
 // Implementation of TreeMap
@@ -16,8 +18,7 @@ public class TreMapExample {
 
     // Method 1
     // To create TreeMap
-    static void create()
-    {
+    static void create() {
 
         // Creating an empty TreeMap
         tree_map = new TreeMap<Integer, String>();
@@ -29,8 +30,7 @@ public class TreMapExample {
 
     // Method 2
     // To Insert values in the TreeMap
-    static void insert()
-    {
+    static void insert() {
 
         // Mapping string values to int keys
         // using put() method
@@ -47,8 +47,7 @@ public class TreMapExample {
 
     // Method 3
     // To search a key in TreeMap
-    static void search(int key)
-    {
+    static void search(int key) {
 
         // Checking for the key
         System.out.println("\nIs key \"" + key
@@ -58,8 +57,7 @@ public class TreMapExample {
 
     // Method 4
     // To search a value in TreeMap
-    static void search(String value)
-    {
+    static void search(String value) {
 
         // Checking for the value
         System.out.println("\nIs value \"" + value
@@ -69,8 +67,7 @@ public class TreMapExample {
 
     // Method 5
     // To display the elements in TreeMap
-    static void display()
-    {
+    static void display() {
 
         // Displaying the TreeMap
         System.out.println("\nDisplaying the TreeMap:");
@@ -80,8 +77,7 @@ public class TreMapExample {
 
     // Method 6
     // To traverse TreeMap
-    static void traverse()
-    {
+    static void traverse() {
 
         // Display message only
         System.out.println("\nTraversing the TreeMap:");
@@ -94,8 +90,7 @@ public class TreMapExample {
 
     // Method 6
     // Main driver method
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         // Calling above defined methods inside main()
 
