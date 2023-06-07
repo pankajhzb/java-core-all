@@ -1,6 +1,6 @@
 package com.pk.design;
 
-public class TestDelegatePattern {
+public class DelegatePattern {
 
     /**
      * @param args
