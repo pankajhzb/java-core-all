@@ -1,4 +1,4 @@
-package com.pk.solid;
+package com.pk.solid.O;
 
 public class OCP {
     private static final Object Rectangle = null;

@@ -1,0 +1,12 @@
+Here are some examples of Java string based logical questions:
+--------------------------------------------------------------
+How to check if a string is a palindrome or not?
+How to find the longest substring without repeating character?
+How to reverse a string?
+How to check if two strings are rotations of each other?
+How to find the first non-repeating character in a given string?
+How to remove all duplicates from a given string?
+How to print the duplicate characters from the given String?
+How to remove characters from the first String which are present in the second String?
+How to check if two strings are anagrams of each other?
+Write a program to print all permutations of String in Java.
