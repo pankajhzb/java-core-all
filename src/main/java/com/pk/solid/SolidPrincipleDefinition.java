@@ -15,6 +15,8 @@ public class SolidPrincipleDefinition {
          * A class should have only one reason to change.If a class do multiple
          * task then not good only one method/ or similar functional method will
          * be better.
+         *
+         * Example:
          */
 
         /** 2. OCP - Open closed principle */
@@ -25,9 +27,7 @@ public class SolidPrincipleDefinition {
          * Example : In Spring framework we can not change their core logic and
          * request processing, but we modify the desired application flow just
          * by extending some classes and plug-in them in configuration files.
-         */
-
-        /*
+         *
          * Example: OCP
          * Our banking application supports two account types – “current” and “savings”.
          * These are represented by the classes CurrentAccount and SavingsAccount respectively.
@@ -57,7 +57,10 @@ public class SolidPrincipleDefinition {
          * For the Open/Closed Principle to work well,
          * all subtypes must be substitutable for their supertype without ever having to modify the client code.
          * Adhering to the Liskov Substitution Principle ensures this substitutability.
+         *
+         * Example:
          */
+
         /** ISP - Interface segregation principle */
         /*
          * “Clients should not be forced to implement unnecessary methods which
@@ -68,6 +71,7 @@ public class SolidPrincipleDefinition {
          * They should be like PdfReportable and ExcelReportable. This will give the flexibility to users to use only
          * the required functionality only.
          *
+         * Example:
          */
 
         /** DIP Dependency inversion principle */
@@ -75,6 +79,8 @@ public class SolidPrincipleDefinition {
          * “Depend on abstractions, not on concretions” we should design our
          * software in such a way that various modules can be separated from
          * each other using an abstract layer to bind them together.
+         *
+         * Example:
          */
 
     }
