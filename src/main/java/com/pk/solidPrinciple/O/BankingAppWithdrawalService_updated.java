@@ -1,4 +1,4 @@
-package com.pk.solid.O;
+package com.pk.solidPrinciple.O;
 
 
 import java.math.BigDecimal;
@@ -12,5 +12,9 @@ public class BankingAppWithdrawalService_updated {
 
     public void withdraw(BigDecimal amount) {
         account.withdraw(amount);
+    }
+
+    public void deposit(BigDecimal amount) {
+        account.deposit(amount);
     }
 }

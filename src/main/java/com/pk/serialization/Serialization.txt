@@ -5,3 +5,5 @@ Ans: Writting the object into binary is called serialization.
 Ans: By implementing serializable marker interface.
 
 3.How can we deserialize the object.
+
+4. What is Externalization?

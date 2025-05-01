@@ -1,4 +1,4 @@
-package com.pk.solid.L;
+package com.pk.solidPrinciple.O;
 
 import java.math.BigDecimal;
 

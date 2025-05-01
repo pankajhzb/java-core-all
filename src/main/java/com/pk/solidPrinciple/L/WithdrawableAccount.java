@@ -1,8 +1,8 @@
-package com.pk.solid.O;
+package com.pk.solidPrinciple.L;
 
 import java.math.BigDecimal;
 
-public abstract class Account {
+public abstract class WithdrawableAccount {
     protected abstract void deposit(BigDecimal amount);
 
     /**

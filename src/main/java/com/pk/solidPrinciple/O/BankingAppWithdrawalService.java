@@ -1,4 +1,4 @@
-package com.pk.solid.O;
+package com.pk.solidPrinciple.O;
 
 
 import java.math.BigDecimal;
@@ -6,7 +6,8 @@ import java.math.BigDecimal;
 public class BankingAppWithdrawalService {
     private SavingAccount savingAccount;
     private CurrentAccount currentAccount;
-
+    // if new account like FixedTermDeposit account introduced then
+    // this class need to update
     public BankingAppWithdrawalService(SavingAccount savingAccount) {
         this.savingAccount = savingAccount;
     }

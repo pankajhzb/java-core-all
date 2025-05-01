@@ -1,10 +1,8 @@
-package com.pk.solid.O;
-
-import com.pk.solid.L.Account;
+package com.pk.solidPrinciple.L;
 
 import java.math.BigDecimal;
 
-public class SavingAccount extends Account {
+public class SavingAccount_Updated extends WithdrawableAccount {
     @Override
     protected void deposit(BigDecimal amount) {
     // Deposit into this account

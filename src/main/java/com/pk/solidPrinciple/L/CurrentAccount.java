@@ -1,8 +1,8 @@
-package com.pk.solid.L;
+package com.pk.solidPrinciple.L;
 
 import java.math.BigDecimal;
 
-public class FixedTermDepositAccount extends Account {
+public class CurrentAccount extends Account {
     @Override
     protected void deposit(BigDecimal amount) {
     // Deposit into this account
@@ -10,6 +10,6 @@ public class FixedTermDepositAccount extends Account {
 
     @Override
     protected void withdraw(BigDecimal amount) {
-        throw new UnsupportedOperationException("Withdrawals are not supported by FixedTermDepositAccount!!");
+        // Withdraw from this account
     }
 }

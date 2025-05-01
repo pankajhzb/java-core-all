@@ -1,4 +1,4 @@
-package com.pk.solid;
+package com.pk.solidPrinciple;
 
 /**
  * 1. https://howtodoinjava.com/best-practices/solid-principles/

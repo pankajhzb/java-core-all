@@ -7,6 +7,8 @@ import java.util.List;
 public class ArrayListDemo {
 
     public static void main(String[] args) {
+
+
         // A Vector defaults to doubling the size of its array,
         // while the ArrayList increases its array size by 50 percent.
 
