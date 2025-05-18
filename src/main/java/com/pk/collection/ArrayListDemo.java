@@ -1,12 +1,16 @@
 package com.pk.collection;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class ArrayListDemo {
 
     public static void main(String[] args) {
+        // remove duplicate element from the list.
+        List<Integer> list2 = Arrays.asList(1, 3, 4, 5, 6, 22, 33, 1, 3, 6, 8);
+        System.out.println("Duplicate list: " + list2);
+        Set<Integer> set = new HashSet<>();
+        set.addAll(list2);
+        System.out.println("Duplicate removed list: " + set);
 
 
         // A Vector defaults to doubling the size of its array,
