@@ -1,6 +1,6 @@
 package com.pk.design.behavioral;
 
-public class TestIteratorPattern {
+public class IteratorPattern {
 
     /**
      * @param args
